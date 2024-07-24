@@ -7,8 +7,8 @@ Created on Tue Jul 23 17:16:55 2024
 
 import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-tokenizer = AutoTokenizer.from_pretrained("opus")
-model = AutoModelForSeq2SeqLM.from_pretrained("opus")
+tokenizer = AutoTokenizer.from_pretrained("Helsinki-NLP/opus-mt-en-yo")
+model = AutoModelForSeq2SeqLM.from_pretrained("Helsinki-NLP/opus-mt-en-yo")
 
 
 # Title of the app
